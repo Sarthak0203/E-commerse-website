@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+:root{
+    --main-bg-color: #2870f4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    background: var(--main-bg-color);
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+
+nav{
+    display:flex;
+    position: sticky;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white; 
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items:center;
+}
+
+.search button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.nav-links {
+    color: #8f4747;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.container{
+    min-height: calc(100vh - 50px - 12vh);
+    background-color: aliceblue;
+}
+
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.card{
+    max-width: 91vw;
+    margin: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.cards{
+    display: inline-flex;
+    align-items:  center;
+    white-space: nowrap;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+/* .below{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 40px 60px 0;
+    column-gap: 20px;
+    background: black;
+}
+
+.belowtop{
+    color: #878787;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.belowbottom{
+    font-size: 12px;
+  color: #fff;
+  display: block;
+  line-height: 18px;
+  
+}*/
+
+footer{
+    color: white;
+    background-color: var(--main-bg-color);
+    height: 3vh;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 25px;
+}
